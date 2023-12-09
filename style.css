@@ -766,6 +766,25 @@ a.join:visited {
     color: #28a9e0;
 }
 
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.work-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.glassmorph{
+    background: rgba(255,255,255,0.2);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+border: 1px solid rgba(255,255,255,0.1);
+}
 @media screen and (max-width: 975px) {
 
     .nav {
@@ -792,9 +811,7 @@ a.join:visited {
     }
 
     .hey2 {
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
+        display: none;
     }
 
     .navigation-fixed-bar {
@@ -869,6 +886,7 @@ a.join:visited {
         flex-wrap: wrap;
         font-size: 16px;
         gap: 0px;
+        margin: 5% 5%;
     }
 
     .text {
@@ -958,4 +976,8 @@ a.join:visited {
         max-width: 90%;
         padding: 10px;
         border-radius: 0;
+    }
+
+    .about-me-connection{
+        display: none;
     }
