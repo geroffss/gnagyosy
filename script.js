@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function toggleMenu() {
         topDiv.classList.toggle("active");
+
     }
 
     mainSection.addEventListener("mouseover", closeMenu);
